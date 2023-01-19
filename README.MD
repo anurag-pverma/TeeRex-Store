@@ -39,5 +39,10 @@ Display the total amount in the shopping cart. *
 #### Deploy-Link 
 https://teerexstore-assi.netlify.app/
 
+<p align="center">
+  <img src="./img/Screenshot 2023-01-19 233720.png"/>
+  <img src="./img/Screenshot 2023-01-19 233639.png"/>
+  <img src="./img/Screenshot 2023-01-19 233349.png"/>
+</p>
 
 
