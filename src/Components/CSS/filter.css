@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: whitesmoke;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0rem 4rem 0rem 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.links {
+    font-size: 1.5rem;
+    color: black;
+}
+.links {
+    font-size: 1.5rem;
+    color: black;
+}
+.sectionbox{
+    margin: auto;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.cartContainer{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+}
+.imgs{
+    height: 20vh;
+    width: 10vw;
+}
+
+.deletebtn{
+    height: 2rem;
+    width: 5rem;
+}
+.qtybox{
+
+    height: 2rem;
+    width: 5rem;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.totalcontainer{
+    width: 60%;
+    font-size: 20px;
+}
+
+.underline{
+  
+    background-color: black;
+}
+
+.filterpara{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: auto;
+    align-items: center;
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+}

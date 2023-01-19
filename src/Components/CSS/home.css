@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: whitesmoke;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0rem 4rem 0rem 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.cartno{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(196, 194, 194);
+    border: none;
+    border-radius: 2px;
+    margin-left: 2px;
+}
+
+.links {
+    font-size: 1.5rem;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.links:hover {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: underline;
+    
+}
+
+.searchinput {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 0.5px;
+    height: 20px;
+    width: 20vw;
+    color: rgb(24, 1, 1);
+    padding: 0.5rem;
+}
+
+
+.searchinput:focus {
+    outline: none;
+}
+
+
+.searchbar {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* *********product css ******* */
+
+#leftside {
+    position: absolute;
+    width: 18%;
+    float: left;
+    height: 100%;
+    margin: 0rem 5rem 0rem 5rem;
+    background-color: #f4f1f1;
+    z-index: 1010101010
+}
+
+@media screen and (max-width: 480px) {
+    #leftside{
+        /* position: absolute;
+        width: 18%;
+        float: left;
+        height: 100%;
+        /* margin: 0rem 5rem 0rem 5rem; */
+        /* background-color: #f4f1f1;
+        z-index: 1010101010 */ 
+        display: none;
+    }
+  }
+
+#rightSide {
+    position: relative;
+    width: 60%;
+    float: right;
+    height: 100%;
+    margin: 0rem 5rem 0rem 5rem;
+    z-index: 1010101010
+}
+
+
+.productContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .productContainer{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+  }
+
+.productContainer div{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+}
+
+
+
+ 
+
+
+
+
