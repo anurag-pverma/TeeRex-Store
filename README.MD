@@ -21,23 +21,23 @@ Display the total amount in the shopping cart. *
 
 #### Product Listing Page (Sample)
 <a href="https://www.geektrust.com/coding/detailed/teerex-store">
-  <img height="50" src="https://geektrust.sgp1.cdn.digitaloceanspaces.com/assets/v2/problems/teerex-store/product-listing.png"/>
+  <img  src="https://geektrust.sgp1.cdn.digitaloceanspaces.com/assets/v2/problems/teerex-store/product-listing.png"/>
 </a>
 
 
 #### Product Listing Page - Responsive (Sample)
 <a href="https://teerexstore-assi.netlify.app/">
-  <img height="50" src="https://geektrust.sgp1.cdn.digitaloceanspaces.com/assets/v2/problems/teerex-store/product-listing-responsive.png"/>
+  <img src="https://geektrust.sgp1.cdn.digitaloceanspaces.com/assets/v2/problems/teerex-store/product-listing-responsive.png"/>
 </a>
 
 #### Shopping Cart - Pre-Checkout Page (Sample)
 <a href="https://teerexstore-assi.netlify.app/">
-  <img height="50" src="https://geektrust.sgp1.cdn.digitaloceanspaces.com/assets/v2/problems/teerex-store/shopping-cart.png"/>
+  <img  src="https://geektrust.sgp1.cdn.digitaloceanspaces.com/assets/v2/problems/teerex-store/shopping-cart.png"/>
 </a>
 
 
 #### Deploy-Link 
-
+https://teerexstore-assi.netlify.app/
 
 
 
