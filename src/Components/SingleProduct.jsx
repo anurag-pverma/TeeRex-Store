@@ -48,9 +48,9 @@ function SingleProduct({ prod }) {
                 },
               });
             }}
-            style={{ padding: "5px", margin: "2px" }}
+            style={{ padding: "5px", margin: "2px",  }}
           >
-            Add to cart
+            Add To Cart
           </button>
 
         
